@@ -21,8 +21,8 @@ public class Hospede {
 	@Column (name = "id", nullable = false)
 	private Long id;
 	
-	@Column(name = "nome", nullable = false, length = 255)
-	private String nome;
+	@Column(name = "name", nullable = false, length = 255)
+	private String name;
 	
 	@Column(name = "cpf", nullable = false, length = 255)
 	private String cpf;

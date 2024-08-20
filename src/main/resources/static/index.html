@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+       .img-fluid {
+            width: 65%;
+            max-height: 800px;
+            overflow: hidden;
+            padding: 0.4%;
+        }
+        .fundo{
+			background-image: url('imagens/fundo.png');
+			background-size: 100%;
+		}
+		.logo{
+			width: 100px;
+			height: 50px;
+		}
+		.nav-link{
+			color: white;
+		}
+		.nome{
+			flex-wrap: wrap;
+			width: 80px;
+			color: white;
+		}
+    </style>
+</head>
+<body class="fundo">
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center align-items border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="imagens/logo2.png" class="logo">
+                <div class="nome">
+					<h5>HOTEL</h5>
+					<h3>MAJESTIC</h3>
+				</div>
+            </a>
+            <ul class="nav nav-pills align-items-center">
+				<li class="nav-item"><a href="index.html" class="nav-link active" style="background-color: #A49ACD; text-decoration: underline;">Home</a></li>
+                <li class="nav-item"><a href="hospede.html" class="nav-link">Hóspedes</a></li>
+                <li class="nav-item"><a href="quarto.html" class="nav-link">Quartos</a></li>
+                <li class="nav-item"><a href="reserva.html" class="nav-link">Reservas</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="d-flex flex-wrap justify-content-center">
+                <img src="imagens/logo.png" class="img-fluid" alt="logo Image">
+            </div>
+        </div>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2024 Gerenciamento de Hotel SESI-SENAI</p>
+        </footer>
+    </div>
+</body>
+</html>
